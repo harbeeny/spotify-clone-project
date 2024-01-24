@@ -3,6 +3,8 @@
     "Figtree",
     "Supa",
     "Supabase",
-    "Tunify"
+    "Tunify",
+    "uniqid",
+    "upsert"
   ]
 }
