@@ -2,7 +2,7 @@ import { ProductWithPrice } from "@/types";
 import { createServerComponentClient } from "@supabase/auth-helpers-nextjs";
 import { cookies } from "next/headers";
 
-const getActiveProductWithPrices = async (): Promise<ProductWithPrice[]> => {
+const getActiveProductsWithPrices = async (): Promise<ProductWithPrice[]> => {
     const supabase = createServerComponentClient({
         cookies: cookies
     });
@@ -14,4 +14,4 @@ const getActiveProductWithPrices = async (): Promise<ProductWithPrice[]> => {
     return (data as any) || [];
 };
 
-export default getActiveProductWithPrices;
+export default getActiveProductsWithPrices;
