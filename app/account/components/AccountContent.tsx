@@ -50,7 +50,9 @@ const AccountContent = () => {
             {subscription && (
                <div className="flex flex-col gap-y-4">
                 <p>
-                    You are currently on the <b>{subscription?.prices?.products?.name}</b> plan.
+                    You are currently on the 
+                    <b>{subscription?.prices?.products?.name}</b> 
+                    plan.
                 </p>
                 <Button 
                     className="w-[300px]"
