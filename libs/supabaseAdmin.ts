@@ -151,7 +151,7 @@ const manageSubscriptionStatusChange = async (
         : null,
       trial_end: subscription.trial_end
         ? toDateTime(subscription.trial_end).toISOString()
-        : null
+        : null,   
     };
 
   const { error } = await supabaseAdmin
