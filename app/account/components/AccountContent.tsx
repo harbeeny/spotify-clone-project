@@ -51,7 +51,7 @@ const AccountContent = () => {
                <div className="flex flex-col gap-y-4">
                 <p>
                     You are currently on the 
-                    <b>{subscription?.prices?.products?.name}</b> 
+                    <b>Tunify Premium</b> 
                     plan.
                 </p>
                 <Button 
